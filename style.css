@@ -124,7 +124,7 @@ a { color:inherit; text-decoration:none; }
 .products .card p { margin: 2px 0 8px; line-height: 1.55; }
 .products .price { margin-top: 6px; display: inline-block; }
 
-/* Tweak section headings for mobile */
+/* Tweak section ings for mobile */
 .section h2 { line-height: 1.25; }
 
 /* Hero: no text baked in image; keep spacing comfortable */
@@ -185,7 +185,7 @@ a { color:inherit; text-decoration:none; }
 @media (max-width: 800px){
   :root{ --heroH: 64vh; --heroHmin: 40vh; }
 }
-/* Ensure header stays clickable even when hero scales */
+/* Ensure er stays clickable even when hero scales */
 .header{ position:sticky; top:0; background:#fff; }
 
 /* --- PATCH v6: remove hero overlay shading, ensure white sections, add smooth header shrink --- */
@@ -426,7 +426,7 @@ input[type="email"], input[type="text"]{font-size:16px;}
   .section{ padding-top: 42px; padding-bottom: 46px; }
   .hero .inner{ padding: 12vh 0 10vh; }
   .card img, .press-logos img{ aspect-ratio: 3 / 2; }  /* slightly taller for better readability */
-  .nav.open{ right: 8px; top: calc(var(--headHmin,56px) + 6px); }
+  .nav.open{ right: 8px; top: calc(var(--headHmin,84px) + 6px); }
 }
 
 /* 4) Extra-wide desktop: prevent giant gaps by limiting max column width */
@@ -612,6 +612,6 @@ input[type="email"], input[type="text"]{font-size:16px;}
 }
 
 .brand-logo img { height:56px; }
-@media (max-width: 420px) { .brand-logo img { height:50px; } }
+@media (max-width: 420px) { .brand-logo img { height:60px; } }
 
 .footer .footer-logo img { height:32px; opacity:.95; }
