@@ -1,0 +1,6 @@
+name = "plqu"
+main = "_worker.js"
+compatibility_date = "2024-11-01"
+
+# 这里指定当前目录为静态资源目录（因为 index.html 在根目录）
+assets = { directory = "." }
