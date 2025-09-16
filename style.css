@@ -611,7 +611,7 @@ input[type="email"], input[type="text"]{font-size:16px;}
   text-shadow: none;
 }
 
-.brand-logo img { height:86px; }
+.brand-logo img { height:56px; }
 @media (max-width: 420px) { .brand-logo img { height:50px; } }
 
 .footer .footer-logo img { height:32px; opacity:.95; }
