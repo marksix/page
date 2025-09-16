@@ -1,6 +1,6 @@
-name = "plqu"
+name = "plqu"                    # 项目名
 main = "_worker.js"
 compatibility_date = "2024-11-01"
 
-# 这里指定当前目录为静态资源目录（因为 index.html 在根目录）
+# 当前目录就是静态资源目录（因为 index.html、style.css 都在根目录）
 assets = { directory = "." }
