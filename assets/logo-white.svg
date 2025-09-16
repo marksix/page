@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320" height="60" viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#FFFFFF">
+    <g transform="translate(6,6)">
+      <rect x="0" y="0" width="10" height="48" rx="5"/>
+      <circle cx="16" cy="14" r="14"/>
+      <circle cx="16" cy="24" r="8" fill="#111111"/>
+    </g>
+    <text x="50" y="40" font-family="Noto Sans SC, PingFang SC, Microsoft YaHei, system-ui" font-weight="800" font-size="28" letter-spacing="1">佩乐趣</text>
+  </g>
+</svg>

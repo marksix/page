@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1800" height="520" viewBox="0 0 1800 520" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(40,40)">
+    <path d="M0,240 C-10,120 120,40 300,20 C520,-6 780,52 820,180 C850,270 770,340 660,370 C520,405 320,395 220,340 C140,300 10,300 0,240 Z"
+          fill="#1976D2"/>
+    <g transform="translate(160,80) rotate(-18)">
+      <polygon points="0,0 90,-15 0,-170" fill="#FFFFFF"/>
+      <polygon points="0,0 70,0 0,-135" fill="#FFFFFF" opacity="0.86"/>
+      <polygon points="0,0 45,14 0,-98" fill="#FFFFFF" opacity="0.72"/>
+    </g>
+    <text x="420" y="206" text-anchor="middle"
+          font-family="Noto Serif SC, Source Han Serif SC, STSong, Songti SC, serif"
+          font-weight="700" font-size="120" fill="#FFFFFF">佩乐趣</text>
+    <text x="420" y="300" text-anchor="middle"
+          font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+          font-weight="800" font-size="110" fill="#FFFFFF" letter-spacing="5">PLQU</text>
+  </g>
+  <g transform="translate(1080, 300)">
+    <text x="0" y="0" font-family="ui-sans-serif, system-ui" font-size="80" font-weight="700" fill="#111111">plqu.com</text>
+    <text x="0" y="90" font-family="ui-sans-serif, system-ui" font-size="40" font-weight="600" fill="#5F6B7A">一扣新风格</text>
+  </g>
+</svg>

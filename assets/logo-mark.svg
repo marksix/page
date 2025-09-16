@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="40" viewBox="0 0 180 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gDrop2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4C8DFF"/>
+      <stop offset="100%" stop-color="#1A6BDB"/>
+    </linearGradient>
+    <radialGradient id="gGloss2" cx="35%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".85"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path d="M0,44 C0,17 23,0 66,0 C128,0 170,22 176,54 C180,78 158,92 116,95 C74,97 27,86 8,66 C2,59 0,52 0,44 Z"
+        fill="url(#gDrop2)" transform="translate(8,2)"/>
+  <ellipse cx="78" cy="26" rx="48" ry="18" fill="url(#gGloss2)"/>
+</svg>

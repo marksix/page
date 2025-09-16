@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="none"/>
+  <path d="M240,700
+           C220,540 360,420 560,380
+           C860,320 1260,400 1320,620
+           C1360,770 1250,890 1090,940
+           C860,1010 540,990 380,900
+           C280,840 250,770 240,700 Z"
+        fill="#1976D2"/>
+  <g transform="translate(360,440) rotate(-18)">
+    <polygon points="0,0 120,-20 0,-220" fill="#FFFFFF"/>
+    <polygon points="0,0 90,0 0,-170" fill="#FFFFFF" opacity="0.82"/>
+    <polygon points="0,0 60,18 0,-120" fill="#FFFFFF" opacity="0.66"/>
+  </g>
+  <text x="860" y="640" text-anchor="middle"
+        font-family="Noto Serif SC, Source Han Serif SC, STSong, Songti SC, serif"
+        font-weight="700" font-size="170" fill="#FFFFFF">佩乐趣</text>
+  <text x="860" y="770" text-anchor="middle"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-weight="800" font-size="160" fill="#FFFFFF" letter-spacing="6">PLQU</text>
+  <text x="860" y="900" text-anchor="middle"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-weight="600" font-size="60" fill="#5F6B7A">www.</text>
+  <text x="1000" y="900"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-weight="800" font-size="60" fill="#FF8A00">P</text>
+  <text x="1048" y="900"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-weight="800" font-size="60" fill="#2D5BFF">L</text>
+  <text x="1088" y="900"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-weight="800" font-size="60" fill="#FF5CA2">Q</text>
+  <text x="1142" y="900"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-weight="800" font-size="60" fill="#00C2FF">U</text>
+  <text x="1195" y="900"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-weight="600" font-size="60" fill="#5F6B7A">.com</text>
+</svg>

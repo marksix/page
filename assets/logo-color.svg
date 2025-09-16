@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360" height="80" viewBox="0 0 360 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1F6FFF"/>
+      <stop offset="100%" stop-color="#00C2FF"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g transform="translate(10,10)">
+      <rect x="0" y="0" width="14" height="60" rx="7" fill="url(#g1)"/>
+      <circle cx="22" cy="18" r="18" fill="url(#g1)"/>
+      <circle cx="22" cy="32" r="10" fill="#fff"/>
+    </g>
+    <text x="70" y="52" font-family="Noto Sans SC, PingFang SC, Microsoft YaHei, system-ui" font-weight="900" font-size="34" letter-spacing="1" fill="#111111">佩乐趣</text>
+  </g>
+</svg>

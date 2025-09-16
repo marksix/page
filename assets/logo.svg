@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360" height="100" viewBox="0 0 360 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gDrop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4C8DFF"/>
+      <stop offset="100%" stop-color="#1A6BDB"/>
+    </linearGradient>
+    <radialGradient id="gGloss" cx="35%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".85"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gMetal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3f5a9a"/>
+      <stop offset="30%" stop-color="#d7e1f2"/>
+      <stop offset="55%" stop-color="#8fa7c9"/>
+      <stop offset="75%" stop-color="#d7e1f2"/>
+      <stop offset="100%" stop-color="#3f5a9a"/>
+    </linearGradient>
+    <filter id="inner" x="-20%" y="-200%" width="140%" height="500%">
+      <feOffset dy="0"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .8 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <!-- smooth droplet -->
+  <g transform="translate(8,8)">
+    <path d="M0,44 C0,17 23,0 66,0 C128,0 170,22 176,54 C180,78 158,92 116,95 C74,97 27,86 8,66 C2,59 0,52 0,44 Z"
+          fill="url(#gDrop)"/>
+    <ellipse cx="70" cy="24" rx="48" ry="18" fill="url(#gGloss)"/>
+  </g>
+
+  <!-- PLQU rounded bubble letters -->
+  <g transform="translate(205,18)" filter="url(#inner)">
+    <!-- P -->
+    <rect x="0" y="0" width="16" height="64" rx="8" fill="url(#gMetal)"/>
+    <circle cx="22" cy="18" r="18" fill="url(#gMetal)"/>
+    <circle cx="22" cy="28" r="10" fill="#fff"/>
+
+    <!-- L -->
+    <rect x="58" y="0" width="16" height="64" rx="8" fill="url(#gMetal)"/>
+    <rect x="58" y="48" width="28" height="16" rx="8" fill="url(#gMetal)"/>
+
+    <!-- Q -->
+    <circle cx="120" cy="34" r="22" fill="url(#gMetal)"/>
+    <circle cx="120" cy="34" r="12" fill="#fff"/>
+    <rect x="134" y="48" width="12" height="12" rx="6" fill="url(#gMetal)"/>
+
+    <!-- U -->
+    <rect x="164" y="0" width="16" height="44" rx="8" fill="url(#gMetal)"/>
+    <rect x="196" y="0" width="16" height="44" rx="8" fill="url(#gMetal)"/>
+    <rect x="176" y="32" width="24" height="16" rx="8" fill="url(#gMetal)"/>
+  </g>
+</svg>
