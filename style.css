@@ -10,7 +10,7 @@ a { color:inherit; text-decoration:none; }
 .header { position:sticky; top:0; z-index:20; background:#fff; border-bottom:1px solid #eee; }
 .header .row { display:flex; align-items:center; justify-content:space-between; padding:14px 0; gap:20px; }
 .brand { display:flex; align-items:center; gap:12px; }
-.brand img { height:78px; }
+.brand img { height:68px; }
 .brand .name { font-weight:900; letter-spacing:.08em; }
 .nav { display:flex; gap:18px; font-weight:700; color:#444; }
 .nav a:hover { color:var(--blue); }
@@ -198,7 +198,7 @@ a { color:inherit; text-decoration:none; }
 /* Header dynamic height */
 :root{
   --headH: 92px;         /* initial header height */
-  --headHmin: 78px;      /* min header height after scroll */
+  --headHmin: 68px;      /* min header height after scroll */
   --headHCur: var(--headH);
   --headScale: 1;
 }
@@ -426,7 +426,7 @@ input[type="email"], input[type="text"]{font-size:16px;}
   .section{ padding-top: 42px; padding-bottom: 46px; }
   .hero .inner{ padding: 12vh 0 10vh; }
   .card img, .press-logos img{ aspect-ratio: 3 / 2; }  /* slightly taller for better readability */
-  .nav.open{ right: 8px; top: calc(var(--headHmin,78px) + 6px); }
+  .nav.open{ right: 8px; top: calc(var(--headHmin,68px) + 6px); }
 }
 
 /* 4) Extra-wide desktop: prevent giant gaps by limiting max column width */
@@ -611,7 +611,7 @@ input[type="email"], input[type="text"]{font-size:16px;}
   text-shadow: none;
 }
 
-.brand-logo img { height:78px; }
+.brand-logo img { height:68px; }
 @media (max-width: 420px) { .brand-logo img { height:60px; } }
 
 .footer .footer-logo img { height:32px; opacity:.95; }
